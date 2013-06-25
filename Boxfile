@@ -6,6 +6,7 @@ web1:
     - mcrypt
     - pdo_mysql
     - zip
+    - curl
     - xcache
   shared_writable_dirs:
     - app/storage/cache
