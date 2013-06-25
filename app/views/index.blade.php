@@ -6,9 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Let's put some lipstick on this pig -->
-		<link href="/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-		<link href="/css/candy.css" rel="stylesheet">
+		<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="/assets/css/candy.css" rel="stylesheet">
 
 		<!-- Standard fonts suck. -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -47,17 +47,17 @@
 			<div class="row-fluid top-content hidden-phone">
 				<div class="span4">
 					<div class="img-rounded workflow-image">
-						<img src="/img/code.png" alt="Look at all of that sweet, sweet code!" />
+						<img src="/assets/img/code.png" alt="Look at all of that sweet, sweet code!" />
 					</div>
 				</div>
 				<div class="span4">
 					<div class="img-rounded workflow-image">
-						<img src="/img/relic.png" alt="We can rebuild him. We have the technology!" />
+						<img src="/assets/img/relic.png" alt="We can rebuild him. We have the technology!" />
 					</div>
 				</div>
 				<div class="span4">
 					<div class="img-rounded workflow-image">
-						<img src="/img/gitlog.png" alt="And who says a git log can't be pretty?" />
+						<img src="/assets/img/gitlog.png" alt="And who says a git log can't be pretty?" />
 					</div>
 				</div>
 			</div>
@@ -76,8 +76,8 @@
 		</div>
 		<!-- Add some magic! -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-		<script src="/js/sketch.js"></script>
-		<script src="/js/candy.js"></script>
+		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/sketch.js"></script>
+		<script src="/assets/js/candy.js"></script>
 	</body>
 </html>
