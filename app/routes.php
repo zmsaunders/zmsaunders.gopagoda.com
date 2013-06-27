@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+
+Route::get('lab', array('as' => 'lab', function(){
+	return View::make('lab')->with('title', 'Expirements');
+}));
+
+Route::Controller('blog', 'BlogController');
