@@ -11,7 +11,11 @@ class DatabaseSeeder extends Seeder {
 	{
 		Eloquent::unguard();
 
+		// Create two dummy posts
 		$this->call('SeedPostsTable');
+
+		// Create a dummy account
+		$this->call('SeedUsersTable');
 	}
 
 }
