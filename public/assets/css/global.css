@@ -6349,6 +6349,10 @@ header:hover .name {
 .self-shot:hover .img-circle {
   border-bottom-left-radius: 0; }
 
+.form-login {
+  max-width: 300px;
+  margin: 0 auto; }
+
 @font-face {
   font-family: "GeneralFoundicons";
   src: url("/assets/font/general_foundicons.eot");
