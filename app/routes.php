@@ -22,6 +22,7 @@ Route::get('lab', array('as' => 'lab', function(){
 
 Route::Controller('blog', 'BlogController');
 Route::Controller('login', 'LoginController');
+
 Route::group( array('prefix'=>'admin'), function(){
-	Route::Controller('post', 'PostController');
+	Route::Controller('post', 'AdminPostController');
 });
