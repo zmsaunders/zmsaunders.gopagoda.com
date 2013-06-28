@@ -12,7 +12,7 @@ class BlogController extends BaseController {
 	public function getIndex()
 	{
 
-		return View::make('blog.posts')->with('posts', Post::all());
+		return View::make('blog.posts')->with('posts', Post::latest()->get());
 
 	}
 
