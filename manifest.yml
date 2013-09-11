@@ -1,0 +1,19 @@
+---
+applications:
+  .:
+    services:
+      db:
+        type: mysql
+      rds:
+        type: redis
+    mem: 128M
+    name: zmsaunders
+    instances: 1
+    url: ${name}.${target-base}
+    framework:
+      name: php
+      info:
+        description: PHP Application
+        mem: 128M
+        exec:
+    infra: aws

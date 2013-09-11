@@ -25,9 +25,6 @@
 					<li class="<?php echo (Request::segment(1) == 'lab') ? 'active' : '';?>">
 						<a href="{{ URL::route('lab') }}">Expirements</a>
 					</li>
-					<li class="<?php echo (Request::segment(1) == 'blog') ? 'active' : '';?>">
-						<a href="{{ URL::to('blog') }}">Field Notes</a>
-					</li>
 				</ul>
 			</nav>
 			<div class="pull-left">
